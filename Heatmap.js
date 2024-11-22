@@ -7,7 +7,7 @@ const Heatmap = () => {
   const [error, setError] = useState(null); // State for errors
 
   useEffect(() => {
-    // Fetch data from the FastAPI backend
+    // Fetch data from the FastAPI backend.....
     const fetchData = async () => {
       try {
         const response = await fetch("http://127.0.0.1:8000/heatmap-data"); // FastAPI endpoint
